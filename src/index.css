@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+/* Design tokens will be extracted from Figma */
+@theme {
+  --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+
+  --color-bg: #F5F7FA;
+  --color-surface: #FFFFFF;
+  --color-border: #E6EFF5;
+  --color-text: #1B1D2A;
+  --color-heading: #343C6A;
+  --color-muted: #8BA3CB;
+  --color-primary: #1814F3;
+  --color-success: #16DBCC;
+  --color-warning: #FFBB38;
+  --color-danger: #FE5C73;
+
+  --radius-card: 25px;
+  --radius-input: 15px;
+  --radius-pill: 9999px;
+
+  --shadow-card: 0px 18px 40px rgba(112, 144, 176, 0.12);
+}
+
+body {
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background: var(--color-bg);
+  color: var(--color-text);
+}
+
+:focus-visible {
+  outline: 2px solid color-mix(in oklab, var(--color-primary) 70%, white);
+  outline-offset: 2px;
+}

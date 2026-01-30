@@ -1,0 +1,9 @@
+node_modules/
+dist/
+.DS_Store
+
+# Codex / evaluation artifacts
+transcript.jsonl
+ground_truth/
+figma-to-code/overview/
+figma-to-code/assets_export/
