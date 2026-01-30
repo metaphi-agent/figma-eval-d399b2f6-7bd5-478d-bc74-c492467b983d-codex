@@ -1,0 +1,28 @@
+{
+  "grid": {
+    "base": 4
+  },
+  "typography": {
+    "fontSans": "Inter, -apple-system, BlinkMacSystemFont, sans-serif"
+  },
+  "colors": {
+    "bg": "#F5F7FA",
+    "surface": "#FFFFFF",
+    "border": "#E6EFF5",
+    "text": "#1B1D2A",
+    "heading": "#343C6A",
+    "muted": "#8BA3CB",
+    "primary": "#1814F3",
+    "success": "#16DBCC",
+    "warning": "#FFBB38",
+    "danger": "#FE5C73"
+  },
+  "radii": {
+    "card": 25,
+    "input": 15,
+    "pill": 9999
+  },
+  "shadows": {
+    "card": "0px 18px 40px rgba(112, 144, 176, 0.12)"
+  }
+}
